@@ -1,0 +1,18 @@
+Package: crisprBlast
+Title: Blast-based alignment of CRISPR sgRNA spacer sequences
+Description: Blast-based alignment of CRISPR sgRNA spacer sequences. 
+Version: 0.99.0
+Author: Jean-Philippe Fortin, Luke Hoberecht
+Maintainer: Jean-Philippe Fortin <fortinj2@gene.com>
+Depends: R (>= 3.6.0), 
+    utils
+Imports:
+    stringr
+Suggests:
+    testthat,
+    rmarkdown,
+    BiocStyle
+LazyData: TRUE
+License: file GNE_LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.2
